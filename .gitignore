@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+website/node_modules/
+
+# Production / Build
+website/build/
+website/.docusaurus/
+website/.cache-loader/
+
+# Repository Cleanliness
+tmp/
+*.log
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment
+.env*
+!.env.example

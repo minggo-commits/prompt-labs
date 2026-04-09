@@ -21,3 +21,27 @@
   align-items: center;
   justify-content: center;
 }
+
+.features {
+  display: flex;
+  align-items: flex-start;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+.featureIcon {
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  color: var(--ifm-color-primary);
+}
+
+.featureIcon:hover {
+  transform: scale(1.1) rotate(5deg);
+  color: var(--ifm-color-primary-darker);
+}
+
+.featureTitle {
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}

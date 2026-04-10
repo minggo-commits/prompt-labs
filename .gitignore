@@ -1,11 +1,13 @@
 # Dependencies
 node_modules/
-website/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Production / Build
-website/build/
-website/.docusaurus/
-website/.cache-loader/
+build/
+.docusaurus/
+.cache-loader/
 
 # Repository Cleanliness
 tmp/
@@ -18,5 +20,6 @@ Thumbs.db
 .idea/
 
 # Environment
+.env/
 .env*
 !.env.example

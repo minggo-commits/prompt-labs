@@ -1,29 +1,37 @@
-name: Generate a build and push to another branch
+name: Deploy to Hostinger via FTP
 
 on:
   push:
     branches:
-      - main # The branch name your are commit the new changes
+      - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-    name: Build and Push
     steps:
-      - name: git-checkout
-        uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Install all dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build # The build command of your project
+      - name: Build site
+        run: npm run build
 
-      - name: Push
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: main   # The branch name where you want to push the assets
-          FOLDER: main   # The directory where your assets are generated
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}" # The commit message
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: 65002
+          protocol: sftp
+          local-dir: ./build/
+          server-dir: public_html/
+          dangerous-clean-slate: false # Set to true if you want to delete old files on server not in build/

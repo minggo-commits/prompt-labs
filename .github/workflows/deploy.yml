@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 65002
-          protocol: sftp
+          protocol: ftp
           local-dir: ./build/
           server-dir: public_html/
           dangerous-clean-slate: false # Set to true if you want to delete old files on server not in build/

@@ -16,6 +16,16 @@ const sidebars: SidebarsConfig = {
         'techniques/orchestration',
       ],
     },
+    {
+      type: 'category',
+      label: 'Prompt Library',
+      items: [
+        'templates/library',
+        'templates/seo-strategy',
+        'templates/realistic-images',
+        'templates/ai-video',
+      ],
+    },
   ],
 };
 

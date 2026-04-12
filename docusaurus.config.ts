@@ -85,6 +85,11 @@ const config: Config = {
           position: 'left',
         },
         {
+          href: 'https://www.linkedin.com/in/muh-arsan-akbar-06207a215/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/minggo-commits/prompt-engineering-portfolio',
           label: 'GitHub',
           position: 'right',
@@ -104,8 +109,12 @@ const config: Config = {
           ],
         },
         {
-          title: 'Open Source',
+          title: 'Connect',
           items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/muh-arsan-akbar-06207a215/',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/minggo-commits/prompt-engineering-portfolio',

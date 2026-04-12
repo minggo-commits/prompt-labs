@@ -55,6 +55,12 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      {name: 'keywords', content: 'prompt engineering, ai templates, large language models, promptlabs'},
+      {name: 'author', content: 'PromptLabs Team'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'robots', content: 'index, follow'},
+    ],
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -72,6 +78,16 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Mastering Techniques',
+        },
+        {
+          to: '/docs/templates/library',
+          label: 'Prompt Library',
+          position: 'left',
+        },
+        {
+          href: 'https://www.linkedin.com/in/muh-arsan-akbar-06207a215/',
+          label: 'LinkedIn',
+          position: 'right',
         },
         {
           href: 'https://github.com/minggo-commits/prompt-engineering-portfolio',
@@ -93,8 +109,12 @@ const config: Config = {
           ],
         },
         {
-          title: 'Open Source',
+          title: 'Connect',
           items: [
+            {
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/muh-arsan-akbar-06207a215/',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/minggo-commits/prompt-engineering-portfolio',

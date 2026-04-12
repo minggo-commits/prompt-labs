@@ -1,3 +1,9 @@
+---
+title: Chain of Thought (CoT)
+description: Master Chain-of-Thought prompting to help LLMs solve complex reasoning, logic, and mathematics problems by thinking step-by-step.
+keywords: [chain of thought, cot, ai reasoning, logic prompts, step-by-step reasoning]
+---
+
 # Chain-of-Thought (CoT)
 
 Chain-of-Thought prompting encourages the model to generate intermediate reasoning steps before arriving at a final answer.

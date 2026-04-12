@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Welcome to The Hub
+description: Master the art of Prompt Engineering with our comprehensive guide to LLM control, from basic zero-shot to advanced RAG and orchestration.
+keywords: [prompt engineering guide, llm training, zero-shot, few-shot, rag, ai orchestration]
 ---
 
 # Welcome to The Hub

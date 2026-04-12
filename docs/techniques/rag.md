@@ -1,3 +1,9 @@
+---
+title: Retrieval-Augmented Generation (RAG)
+description: Learn how to ground Large Language Models in external facts using RAG to reduce hallucinations and improve factual accuracy.
+keywords: [rag, retrieval-augmented generation, ground ai, vector databases, factual ai]
+---
+
 # Retrieval-Augmented Generation (RAG)
 
 RAG is a technique that grounds AI outputs in specific, external data rather than relying solely on the model's internal knowledge.

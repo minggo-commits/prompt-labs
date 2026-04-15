@@ -164,3 +164,31 @@ Utilize the following field-photography parameters:
 
 --v 6.1 --ar 16:9 --stylize 100 --style raw
 ```
+
+---
+
+## 6. The Lifestyle & AI Influencer Portraiture
+
+Designed for authentic, candid social media imagery and human model consistency. It focuses on naturalistic lighting, aspirational aesthetics, and relaxed character posing.
+
+**Target Engine/Model:** `Midjourney v6.1` or `Flux.1 [dev]`
+
+```text
+Act as a Contemporary Lifestyle Photographer and Social Media Content Director. Capture a candid, authentic portrait of {Model_Description_and_Demographics} engaged in {Action_or_Activity} at {Location_or_Venue}.
+
+Enforce the following naturalistic photography parameters:
+
+### Camera & Optics:
+- Lens: 35mm f/1.4 or 50mm f/1.8 prime lens for a natural field of view and flattering subject isolation.
+- Depth of Field: Shallow, softly blurring the background to keep the viewer's focus directly on the model's expression.
+
+### Lighting & Vibe:
+- Lighting: Natural, diffused golden hour sunlight OR soft window light indoors. Avoid harsh studio flashes. Use a negative fill to add slight shape to the jawline.
+- Aesthetics: Organic, aspirational, yet approachable (e.g., standard VSCO C1 pre-set style, Kodak Gold 200 film stock emulation). Warm, inviting tones.
+
+### Pose & Expression:
+- Pose: Relaxed, unposed, and candid. The model should be interacting with the environment or prop dynamically, not stiffly staring into the lens.
+- Micro-Expressions: Genuine mid-laugh or a soft, thoughtful gaze away from the camera. Imperfect hair (e.g., some flyaways catching the backlight) to enhance realism.
+
+--v 6.1 --ar 4:5 --style raw --stylize 100
+```

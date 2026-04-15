@@ -46,6 +46,7 @@ We have moved past simple single-line queries. This library features **System Pr
 - The Editorial Lighting Studio
 - The Macro Product Specialist
 - The Wilderness & Landscape Simulator
+- The Lifestyle & AI Influencer Portraiture
 
 ### [AI Video Systems](/docs/templates/ai-video)
 *Frame-by-frame directorial grids for complex motion tracking.*

@@ -21,11 +21,4 @@ Choose a technique from the sidebar to start mastering AI.
 
 ---
 
-## About the Author: Muh Arsan Akbar
 
-This portfolio is engineered and maintained by **Muh Arsan Akbar**, a specialist in AI Systems Architecture and Advanced Prompt Engineering. 
-
-Moving beyond generic AI usage, this library reflects a commitment to treating Large Language Models as highly controllable systems—capable of executing complex Semantic SEO, Industrial Photography Simulation, and Cinematic Video Directing.
-
-* 💼 **Connect on [LinkedIn](https://www.linkedin.com/in/muh-arsan-akbar-06207a215/)**
-* 💻 **Follow my work on [GitHub](https://github.com/minggo-commits/prompt-engineering-portfolio)**
